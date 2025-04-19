@@ -1,0 +1,33 @@
+{
+    "name": "coupone/discount-manager",
+    "description": "A flexible and efficient Laravel package for managing and calculating discount codes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Coupone\\DiscountManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coupone\\DiscountManager\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coupone\\DiscountManager\\DiscountManagerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+} 
